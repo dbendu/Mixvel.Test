@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using MixvelTest.BusinessLogic.Contract.Routes.Search;
+using MixvelTest.BusinessLogic.Impl.Routes.Cache;
 using MixvelTest.BusinessLogic.Impl.Routes.Search;
 using MixvelTest.BusinessLogic.Impl.Routes.Search.Cache;
 using MixvelTest.BusinessLogic.Impl.Routes.Search.Cache.Options;
@@ -19,6 +20,7 @@ internal static class RoutesRegistration
 
         return services
             .AddTransient<ISearchService, SearchService>()
+            .Decorate<ISearchService, CachingSearchService>()
             .AddTransient<ToSearchModelMapper>()
             .AddTransient<SearchStrategyFactory>()
             .AddTransient<OnlyCachedSearchStrategy>()
