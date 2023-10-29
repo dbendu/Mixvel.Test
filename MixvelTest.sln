@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MixvelTest.Api", "MixvelTest.Api\MixvelTest.Api.csproj", "{13D29CF6-1B77-4132-8736-C61119DEDEB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogic", "BusinessLogic", "{83067822-0738-4574-91D4-5E648E992AF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MixvelText.BusinessLogic.Dependencies", "MixvelText.BusinessLogic.Dependencies\MixvelText.BusinessLogic.Dependencies.csproj", "{884655D6-D51D-4313-8063-E19F50629A96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{A6E5A036-9E97-42F6-A251-5DD15BAC2164}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RouteProviders", "RouteProviders", "{48B942ED-1A0E-416F-A2DC-F1BBF7372FC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MixvelTest.DataAccess.RouteProviders.Http", "MixvelTest.DataAccess.RouteProviders.Http\MixvelTest.DataAccess.RouteProviders.Http.csproj", "{AB71AC89-11B6-4A15-951E-AAA0B96BF44B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MixvelTest.BusinessLogic.Contract", "MixvelTest.BusinessLogic.Contract\MixvelTest.BusinessLogic.Contract.csproj", "{70719C47-F77A-4DD1-9157-6BD82F72475B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MixvelTest.BusinessLogic.Impl", "MixvelTest.BusinessLogic.Impl\MixvelTest.BusinessLogic.Impl.csproj", "{30FC7967-3CC0-4F6F-95FF-186030181EE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MixvelTest.DI", "MixvelTest.DI\MixvelTest.DI.csproj", "{9FEB62BA-FAB6-44EF-85F0-299E8691EE50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13D29CF6-1B77-4132-8736-C61119DEDEB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D29CF6-1B77-4132-8736-C61119DEDEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D29CF6-1B77-4132-8736-C61119DEDEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D29CF6-1B77-4132-8736-C61119DEDEB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{884655D6-D51D-4313-8063-E19F50629A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{884655D6-D51D-4313-8063-E19F50629A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{884655D6-D51D-4313-8063-E19F50629A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{884655D6-D51D-4313-8063-E19F50629A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB71AC89-11B6-4A15-951E-AAA0B96BF44B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB71AC89-11B6-4A15-951E-AAA0B96BF44B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB71AC89-11B6-4A15-951E-AAA0B96BF44B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB71AC89-11B6-4A15-951E-AAA0B96BF44B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70719C47-F77A-4DD1-9157-6BD82F72475B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70719C47-F77A-4DD1-9157-6BD82F72475B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70719C47-F77A-4DD1-9157-6BD82F72475B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70719C47-F77A-4DD1-9157-6BD82F72475B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30FC7967-3CC0-4F6F-95FF-186030181EE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30FC7967-3CC0-4F6F-95FF-186030181EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30FC7967-3CC0-4F6F-95FF-186030181EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30FC7967-3CC0-4F6F-95FF-186030181EE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FEB62BA-FAB6-44EF-85F0-299E8691EE50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FEB62BA-FAB6-44EF-85F0-299E8691EE50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FEB62BA-FAB6-44EF-85F0-299E8691EE50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FEB62BA-FAB6-44EF-85F0-299E8691EE50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{884655D6-D51D-4313-8063-E19F50629A96} = {83067822-0738-4574-91D4-5E648E992AF3}
+		{48B942ED-1A0E-416F-A2DC-F1BBF7372FC2} = {A6E5A036-9E97-42F6-A251-5DD15BAC2164}
+		{AB71AC89-11B6-4A15-951E-AAA0B96BF44B} = {48B942ED-1A0E-416F-A2DC-F1BBF7372FC2}
+		{70719C47-F77A-4DD1-9157-6BD82F72475B} = {83067822-0738-4574-91D4-5E648E992AF3}
+		{30FC7967-3CC0-4F6F-95FF-186030181EE9} = {83067822-0738-4574-91D4-5E648E992AF3}
+	EndGlobalSection
+EndGlobal
